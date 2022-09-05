@@ -1,7 +1,18 @@
-import "./App.css";
+import React from 'react'
+import {Cards} from './components/Cards'
+import Formulario from './components/Formulario';
+
 
 function App() {
-  return <div className="App">Prueba commit</div>;
+  return (
+    <>
+    
+    <Formulario />
+
+    </>
+  )
+  
+  
 }
 
 export default App;
